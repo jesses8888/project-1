@@ -12,7 +12,7 @@ print(stock2)
 print("\nstock3")
 print(stock3)
 
-print(f"\nBanana 庫存： {stock2['Banana']}")
+print(f"\nBanana 庫存： {stock2['Banana']}")   
 print("\n缺失值檢查：")
 print(stock2.isna())
 print(f"\n缺失值數量： {stock2.isna().sum()}")
